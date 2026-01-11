@@ -13,45 +13,51 @@
             <div class="current-operand" id="current">0</div>
         </div>
         <div class="buttons">
-            <!-- Scientific functions row 1 -->
+            <!-- Row 1: Scientific functions -->
             <button class="btn function" data-action="sin">sin</button>
             <button class="btn function" data-action="cos">cos</button>
             <button class="btn function" data-action="tan">tan</button>
             <button class="btn function" data-action="log">log</button>
-            <button class="btn function" data-action="ln">ln</button>
             
-            <!-- Scientific functions row 2 -->
+            <!-- Row 2: Scientific functions -->
+            <button class="btn function" data-action="ln">ln</button>
             <button class="btn function" data-action="sqrt">√</button>
             <button class="btn function" data-action="power">x²</button>
             <button class="btn function" data-action="pow">xʸ</button>
+            
+            <!-- Row 3: Constants and operators -->
             <button class="btn function" data-action="pi">π</button>
             <button class="btn function" data-action="e">e</button>
-            
-            <!-- Standard calculator buttons -->
             <button class="btn operator" data-action="clear">C</button>
             <button class="btn operator" data-action="delete">DEL</button>
-            <button class="btn operator" data-action="percent">%</button>
-            <button class="btn operator" data-action="divide">/</button>
             
+            <!-- Row 4: Numbers 7-9 and division -->
             <button class="btn number" data-number="7">7</button>
             <button class="btn number" data-number="8">8</button>
             <button class="btn number" data-number="9">9</button>
-            <button class="btn operator" data-action="multiply">×</button>
+            <button class="btn operator" data-action="divide">/</button>
             
+            <!-- Row 5: Numbers 4-6 and multiply -->
             <button class="btn number" data-number="4">4</button>
             <button class="btn number" data-number="5">5</button>
             <button class="btn number" data-number="6">6</button>
-            <button class="btn operator" data-action="subtract">-</button>
+            <button class="btn operator" data-action="multiply">×</button>
             
+            <!-- Row 6: Numbers 1-3 and subtract -->
             <button class="btn number" data-number="1">1</button>
             <button class="btn number" data-number="2">2</button>
             <button class="btn number" data-number="3">3</button>
-            <button class="btn operator" data-action="add">+</button>
+            <button class="btn operator" data-action="subtract">-</button>
             
+            <!-- Row 7: 0, decimal, percent, add -->
             <button class="btn number" data-number="0">0</button>
             <button class="btn number" data-number=".">.</button>
+            <button class="btn operator" data-action="percent">%</button>
+            <button class="btn operator" data-action="add">+</button>
+            
+            <!-- Row 8: Negate and equals (spans remaining columns) -->
             <button class="btn operator" data-action="negate">+/-</button>
-            <button class="btn equals" data-action="equals">=</button>
+            <button class="btn equals span-3" data-action="equals">=</button>
         </div>
     </div>
     <script src="script.js"></script>
