@@ -110,6 +110,10 @@ body {
     grid-column: span 1;
 }
 
+.btn.span-3 {
+    grid-column: span 3;
+}
+
 .btn.equals:hover {
     background: #5dd879;
 }
